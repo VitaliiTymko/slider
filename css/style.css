@@ -1,0 +1,83 @@
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  display: block;
+  width: 400px;
+  height: 80px;
+  padding: 0 16px;
+  margin: 50px auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2;
+  text-align: center;
+
+  letter-spacing: 0.06em;
+
+  color: #d9534f;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #d9534f;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color:  #c4cdff;
+  color: black;
+  box-shadow: 2px 2px 4px black;
+}
+
+.slider {
+  width: 1250px;
+  margin: 100px auto;
+}
+
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+
+  width: 100%;
+  padding: 380px 0 10px 0;
+  background-color: #c4cdff;
+}
+
+.card {
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+  height: 450px;
+  margin: 0 20px;
+  background-color: #c4cdff;
+  padding-top: 60px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+img {
+    position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
